@@ -25,15 +25,14 @@ Preparando o ambiente (Procedimentos foram realizados no Windows 10 64 bits)
 	* IDE para desenvolvimento. Sugestão Visual Studio Code
 		https://code.visualstudio.com/download
 
-Criando o primeiro projeto (Darei um exemplo para uma pasta chamada "Projetos" no disco local C)
-	* Abra o "Prompt de Comando" ( cmd.exe )
-	* Crie uma pasta para ficar o projeto (Ex: mkdir c:\Projetos )
-	* Acesse a pasta criada	anteriormente ( cd C:\Projetos )
-	* Criar o projeto. Dentro da pasta "Projetos" digite o comando:
-		laravel new ToDo
+	* Criando o primeiro projeto (Darei um exemplo para uma pasta chamada "Projetos" no disco local C)
+		- Abra o "Prompt de Comando" ( cmd.exe )
+		- Crie uma pasta para ficar o projeto (Ex: mkdir c:\Projetos )
+		- Acesse a pasta criada	anteriormente ( cd C:\Projetos )
+		- Criar o projeto. Dentro da pasta "Projetos" digite o comando:
+			laravel new ToDo
 
-
-Sites de referência:
-	Laravel: https://laravel.com/	
-	Bootstrap: https://getbootstrap.com/
+	* Sites de referência:
+		Laravel: https://laravel.com/	
+		Bootstrap: https://getbootstrap.com/
 
