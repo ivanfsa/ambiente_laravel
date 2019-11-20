@@ -9,7 +9,7 @@ Preparando o ambiente (Procedimentos foram realizados no Windows 10 64 bits)
 	* Instalar MySQL, Apache(opcional) e PHP
 		Sugestão é baixar o "XAMPP for Windows 7.3.11" (Não possui MySQL e sim o MariaDB)
 		https://www.apachefriends.org/download.html
-	    - OBS: o Laravel possui um servidor interno e desta forma o Apache é opcional
+	    - OBS: o Laravel possui um servidor interno. Desta forma o Apache é opcional
 
 	* Composer
 		https://getcomposer.org/Composer-Setup.exe
@@ -25,18 +25,15 @@ Preparando o ambiente (Procedimentos foram realizados no Windows 10 64 bits)
 	* IDE para desenvolvimento. Sugestão Visual Studio Code
 		https://code.visualstudio.com/download
 
-	* Workbench é uma sugestão para a modelagem do banco de dados
-		https://dev.mysql.com/downloads/workbench/
-
 Criando o primeiro projeto (Darei um exemplo para uma pasta chamada "Projetos" no disco local C)
 	* Abra o "Prompt de Comando" ( cmd.exe )
-	* Crie uma pasta para ficar o projeto ( mkdir c:\Projetos )
+	* Crie uma pasta para ficar o projeto (Ex: mkdir c:\Projetos )
 	* Acesse a pasta criada	anteriormente ( cd C:\Projetos )
-	* Dentro da pasta "Projetos" digite o comando:
+	* Criar o projeto. Dentro da pasta "Projetos" digite o comando:
 		laravel new ToDo
 
 
 Sites de referência:
 	Laravel: https://laravel.com/	
-
+	Bootstrap: https://getbootstrap.com/
 
