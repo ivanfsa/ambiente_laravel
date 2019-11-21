@@ -1,6 +1,6 @@
 # ambiente_laravel
 
-Tutorial para preparar o ambiente de desenvolvimento com Laravel no Windows 10
+Tutorial para preparar o ambiente de desenvolvimento com Laravel 6x no Windows 10
 
 Preparando o ambiente (Procedimentos foram realizados no Windows 10 64 bits)
 
