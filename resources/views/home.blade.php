@@ -74,6 +74,7 @@
       </div>
 
 @endsection
+
 @section('javascript')
 
     <script  type="text/javascript">
