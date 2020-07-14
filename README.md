@@ -1,11 +1,13 @@
 # ambiente_laravel
 
-Tutorial para preparar o ambiente de desenvolvimento com Laravel 7x (compatível com a PHP 7.2.5 ou superior) no Windows 10 (build 1909). Caso seja utilizado o windows 7 alguns dos procedimentos poderão ser diferentes.
+Tutorial para preparar o ambiente de desenvolvimento com Laravel 7x (compatível com a PHP 7.2.5 ou superior) no Windows 10 (build 1909). 
+Caso seja utilizado o windows 7 alguns dos procedimentos poderão ser diferentes.
 
 Preparando o ambiente
 
 	* Instalar MySQL, Apache(opcional) e PHP
-		Sugestão é baixar o "XAMPP for Windows 7.4.7" (Embora exiba o nome MySQL, será instalado o MariaDB). Durante a instalação selecione apenas Mysql e phpMyAdmin. O Apache e o PHP são selecionados automaticamente)
+		Sugestão é baixar o "XAMPP for Windows 7.4.7" (Embora exiba o nome MySQL, será instalado o MariaDB). 
+		Durante a instalação selecione apenas Mysql e phpMyAdmin. O Apache e o PHP são selecionados automaticamente)
 		https://www.apachefriends.org/pt_br/index.html
 	    - OBS: o Laravel possui um servidor interno. Desta forma o uso do Apache é opcional
 
