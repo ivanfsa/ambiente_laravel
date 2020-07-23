@@ -21,6 +21,3 @@ Route::get('/', function () {
 // opcão=>  
 //Route::resource('/','TarefaController');
 
-Route::get('/','TarefaController@index');
-
-Route::resource('/tarefa','TarefaController');
