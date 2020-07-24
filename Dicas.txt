@@ -3,11 +3,10 @@ Banco de dados
     composer global require "laravel/installer"
 
  -
- 2 - Criar o projeto Laravel
-    composer create-project laravel/laravel  todo --prefer-dist
- 
+ 2 - Criar o projeto (ToDo) pelo Laravel
+   laravel new todo
  -
- 3 - Model (para manipular os dados)
+ 3 - Model (para manipular os dados) (App\)
     Gerar arquivos em App
         php artisan make:model Tarefa
     
@@ -15,59 +14,14 @@ Banco de dados
         protected $table = "tarefas";
 
  -
- 4 - Criar o template layouts: app, menu e head
-     Criar arquivo home.blade e alterar a rota
+ 4 - Criar um template (Resources\views\)
+     - Criar pasta layouts (Resources\views\layouts):
+     - Criar os arquivos denro de views\layouts
+        app.blade.php
+        menu.blade.php  (explicar no mspaint o que é o cabeçalho)
+        head.blade.php
 
- -
- 6 - Controller
-
-    php artisan make:controller TarefaController --resource
-    
-    - Criar a rota 
-        Route::resource('/tarefa','TarefaController');
-
- -
- 7 - Views
-    - Criar o arquivo create.blade
-
- -
- 8 - Base de dados
-    Arquivo .Env - Dados de conexao
-
- 9 - Migration
-    Gerar arquivos Migration
-        php artisan make:migration tarefas_create_table --create=tarefas
-
-    Criar tabelas no banco
-        php artisan migrate
-    
-    Desfazer Migration
-        php artisan migrate:rollback
-        php artisan migrate:rollback --step=2
-
-
-OBS: Pacote para gerar arquivo PDF (mPDF)
-       - Instalar:
-            composer require carlos-meneses/laravel-mpdf
-       
-       - Configuração do tamanho do papel é alterada em:
-        \vendor\carlos-meneses\laravel-mpdf\src\pdf.php
-            'format'   => 'A4',    
-    
-        - Depois adiciona app.php
-            'providers' => [
-                Meneses\LaravelMpdf\LaravelMpdfServiceProvider::class
-            ]
-        
-            'aliases' => [
-                'PDF' => Meneses\LaravelMpdf\Facades\LaravelMpdf::class,
-            ]
-
-        - use MPDF;
-            function generate_pdf() {
-                $data = [
-                    'foo' => 'bar'
-                ];
-                $pdf = PDF::loadView('pdf.document', $data);
-                return $pdf->stream('document.pdf');
-            }
+     - Criar arquivo home.blade em (resources\views) (Será nossa página inicial)
+     - criar a pasta resources\views\tarefas
+     - criar arquivo para editar a tarefa
+        resources\views\tarefas\edit.blade.php
